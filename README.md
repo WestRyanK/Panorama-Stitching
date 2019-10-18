@@ -7,9 +7,11 @@ A panorama stitcher program. Give it several images and it will automatically st
 
 In order to load new images with my image stitcher, go to the bottom of the code and change the paths on the lines:
 
+```
 im1 = cv2.imread("temple_horiz1_1200.png")
 im2 = cv2.imread("temple_horiz2_1200.png")
 im3 = cv2.imread("temple_horiz3_1200.png")
+```
 
 Run the code.
 
